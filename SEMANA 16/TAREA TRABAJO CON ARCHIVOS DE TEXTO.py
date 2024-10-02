@@ -1,8 +1,8 @@
-# Tema: Escritura de Archivo de Texto
+# Nombre de la tarea: Escritura de Archivo de Texto
 
 # Abrimos (o creamos si no existe) un archivo llamado 'my_notes.txt' en modo escritura ('w')
 with open('my_notes.txt', 'w') as file:
-    # Escribimos tres líneas de notas personales en nuestro archivo
+    # Escribimos tres líneas de notas personales en el archivo
     file.write("Primera nota: Recordar estudiar todos los días.\n")
     file.write("Segunda nota: No olvidar hacer ejercicio regularmente.\n")
     file.write("Tercera nota: Aprender a organizar mejor mi tiempo.\n")
